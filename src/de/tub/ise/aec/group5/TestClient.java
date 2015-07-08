@@ -68,13 +68,13 @@ public class TestClient {
 		logger.info("---- Start Calculating staleness  ----");
 		String staleFile = "resources/sync-stalness.csv"; // the file where the
 		// staleness
-		Client.create("52.18.103.8", 2000, "tubIt", value);
+		Client.create("52.18.103.8", 2000, "tubBerlin", value);
 		// Client.update("52.18.103.8", 2000, "tub", value);
 		CSVWriter stale = new CSVWriter(new FileWriter(staleFile));
 		for (int i = 0; i < nbTests; i++) {
-			Client.update("52.18.103.8", 2000, "tubIIt", value);
+			Client.update("52.18.103.8", 2000, "tubBerlin", value);
 			long endTime = System.currentTimeMillis();
-			logger.info("the read value  is" + Client.read("52.18.103.8", 2000, "tubIt"));
+			logger.info("the read value  is" + Client.read("52.18.103.8", 2000, "tubBerlin"));
 			writeTimeA = time.getWriteTimeA();
 			writeTimeB = time.getWriteTimeB();
 			writeTimeC = time.getWriteTimeC();
