@@ -1,0 +1,7 @@
+<replicationpaths>
+	<path start="nodeA">
+		<link src="nodeA" type="async" target="nodeB"/>
+		<link src="nodeB" type="async" target="nodeC"/>
+		<link src="nodeC" type="async" target="nodeD"/>
+	</path>
+</replicationpaths>

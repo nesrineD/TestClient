@@ -1,0 +1,3563 @@
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: localhost Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: localhost Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: localhost Port: 4000
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 6000
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler -   the originator is  nodeA
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler - the time to write on node A is1.436353490466E12
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler -   the originator is  nodeB
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler - the time to write on node B is1.436353491481E12
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler -   the originator is  nodeA
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler - the time to write on node A is1.436353491499E12
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler -   the originator is  nodeB
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler - the time to write on node B is1.436353491532E12
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@2dda6444  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@4783da3f
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler -   the originator is  nodeC
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler - the time to write on node C is1.436353491501E12
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is1.436353491499E12
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is1.436353491532E12
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is1.436353491532E12
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler -   the originator is  nodeC
+INFO Thread-3 de.tub.ise.aec.group5.TimeHandler - the time to write on node C is1.436353491548E12
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: localhost Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: localhost Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: localhost Port: 4000
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating latency  ----
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - start time1436354891011
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - latency is1016.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436354897039
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - latency is1015.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436354903065
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - latency is1015.0
+INFO main de.tub.ise.aec.group5.TestClient - ---- END latency calculation 
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 6000
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating staleness  ----
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@2e817b38
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@3f91beef
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@179d3b25
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.TestClient - ---- END staleness calculation 
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: localhost Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: localhost Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: localhost Port: 4000
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating latency  ----
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@6f539caf  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - start time1436355795161
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: 52.18.103.8 Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: 54.210.67.217 Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: 52.10.128.10 Port: 4000
+DEBUG main org.apache.log4j.Logger - ID: nodeD Host: 54.169.107.229 Port: 5000
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating latency  ----
+ERROR pool-1-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-1-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-2-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-2-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - start time1436376725665
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-3-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-3-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - latency is1002.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436376731672
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-4-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-4-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - latency is1001.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436376737675
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - latency is1001.0
+ERROR pool-5-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-5-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - ---- END latency calculation 
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 53059
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating staleness  ----
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+ERROR pool-6-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-6-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-7-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-7-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: Could not start session.
+Body:  resp codefalse
+ERROR pool-8-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-8-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: Could not start session.
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@c4437c4
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-9-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-9-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-10-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-10-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: Could not start session.
+Body:  resp codefalse
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@1a6c5a9e
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-11-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-11-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-12-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-12-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@254989ff
+ERROR pool-13-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-13-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.TestClient - ---- END staleness calculation 
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: 172.31.12.164 Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: 172.31.52.134 Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: 172.31.45.251 Port: 4000
+DEBUG main org.apache.log4j.Logger - ID: nodeD Host: 172.31.29.155 Port: 5000
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating latency  ----
+ERROR pool-1-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-1-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-2-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-2-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - start time1436377652311
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-3-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-3-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - latency is1002.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436377658317
+ERROR pool-4-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-4-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: Could not start session.
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - latency is1000.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436377664317
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-5-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-5-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - latency is1001.0
+INFO main de.tub.ise.aec.group5.TestClient - ---- END latency calculation 
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 53059
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating staleness  ----
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+ERROR pool-6-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-6-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-7-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-7-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-8-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-8-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-9-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-9-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@c4437c4
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-10-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-10-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: Could not start session.
+Body:  resp codefalse
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@1a6c5a9e
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-11-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-11-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-12-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-12-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: Could not start session.
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@254989ff
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-13-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-13-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.TestClient - ---- END staleness calculation 
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: 52.18.103.8 Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: 54.210.67.217 Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: 52.10.128.10 Port: 4000
+DEBUG main org.apache.log4j.Logger - ID: nodeD Host: 54.169.107.229 Port: 5000
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating latency  ----
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@6f539caf  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378172255
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7eda2dbb  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is388.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378177644
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@76fb509a  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is385.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378183029
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1f17ae12  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is415.0
+INFO main de.tub.ise.aec.group5.TestClient - ---- END latency calculation 
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 53059
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating staleness  ----
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3f91beef  resp codetrue
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-8-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-8-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-9-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-9-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@179d3b25
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-10-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-10-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@37f8bb67
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-11-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-11-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-12-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-12-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@31cefde0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+ERROR pool-13-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-13-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.TestClient - ---- END staleness calculation 
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: 52.18.103.8 Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: 54.210.67.217 Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: 52.10.128.10 Port: 4000
+DEBUG main org.apache.log4j.Logger - ID: nodeD Host: 54.169.107.229 Port: 5000
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating latency  ----
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@65b3120a  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378249770
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7106e68e  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is430.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378255201
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@6576fe71  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is376.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378260578
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@300ffa5d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is352.0
+INFO main de.tub.ise.aec.group5.TestClient - ---- END latency calculation 
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 53059
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating staleness  ----
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@c4437c4  resp codetrue
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3f91beef  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@37bba400
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-9-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-9-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@254989ff  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@37f8bb67
+ERROR pool-11-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-11-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@20ad9418  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@439f5b3d
+ERROR pool-13-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-13-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.TestClient - ---- END staleness calculation 
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: 52.18.103.8 Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: 54.210.67.217 Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: 52.10.128.10 Port: 4000
+DEBUG main org.apache.log4j.Logger - ID: nodeD Host: 54.169.107.229 Port: 5000
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 53059
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating staleness  ----
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@4783da3f  resp codetrue
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@4d405ef7  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@2e817b38
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@433c675d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@1a6c5a9e
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@179d3b25  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5d099f62
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.TestClient - ---- END staleness calculation 
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: 52.18.103.8 Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: 54.210.67.217 Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: 52.10.128.10 Port: 4000
+DEBUG main org.apache.log4j.Logger - ID: nodeD Host: 54.169.107.229 Port: 5000
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating latency  ----
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@66a29884  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378530644
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@6e2c634b  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is341.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378535986
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7e6cbb7a  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is458.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378541444
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7106e68e  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is393.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378546838
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@6576fe71  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is362.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378552201
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@300ffa5d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is340.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378557542
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@4d405ef7  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is349.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378562892
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@2e817b38  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is372.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378568264
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@433c675d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is379.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378573644
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1a6c5a9e  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is399.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378579044
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@179d3b25  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is368.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378584414
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5d099f62  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is407.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378589821
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@49c2faae  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is362.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378595183
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@31cefde0  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is357.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378600541
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1d56ce6a  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is354.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378605895
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@17f052a3  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is352.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378611248
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5010be6  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is358.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378616608
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7daf6ecc  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is363.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378621971
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@238e0d81  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is364.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378627335
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@377dca04  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is352.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378632688
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@21b8d17c  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is359.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378638048
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5910e440  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is328.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378643377
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@533ddba  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is355.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378648732
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7a07c5b4  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is349.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378654082
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3d646c37  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is338.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378659420
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5a10411  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is772.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378665192
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@306a30c7  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is371.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378670565
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@68de145  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is361.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378675927
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@46f7f36a  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is358.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378681285
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@2b71fc7e  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is397.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378686683
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@25f38edc  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is367.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378692051
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3eb07fd3  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is343.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378697394
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@69d0a921  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is344.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378702739
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@799f7e29  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is380.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378708120
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@277050dc  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is373.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378713493
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7aec35a  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is408.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378718902
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@42110406  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is433.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378724337
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@22d8cfe0  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is427.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378729764
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1de0aca6  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is418.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378735182
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@41906a77  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is358.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378740541
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5387f9e0  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is354.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378745895
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@2cdf8d8a  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is329.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378751224
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5cb0d902  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is359.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378756584
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1698c449  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is445.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378762029
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5f4da5c3  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is376.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378767405
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@14514713  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is366.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378772772
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5b37e0d2  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is325.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378778097
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5a2e4553  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is391.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378783488
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@6659c656  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is354.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378788842
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@45ff54e6  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is371.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378794215
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@bebdb06  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is384.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378799599
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@45283ce2  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is376.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378804975
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7591083d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is360.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378810336
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@736e9adb  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is364.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378815700
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@108c4c35  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is353.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378821053
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@4bf558aa  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is381.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378826435
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5fa7e7ff  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is376.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378831811
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@27f8302d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is349.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378837160
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@2d8e6db6  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is351.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378842512
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@4534b60d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is355.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378847867
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@619a5dff  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is373.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378853240
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7e32c033  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is368.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378858608
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@497470ed  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is360.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378863970
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@b1a58a3  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is364.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378869335
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@e2144e4  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is368.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378874704
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3d71d552  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is357.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378880062
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@18769467  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is360.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378885422
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7506e922  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is374.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378890796
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@621be5d1  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is342.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378896139
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@15327b79  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is375.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378901514
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@722c41f4  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is378.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378906892
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5d6f64b1  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is320.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378912213
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@22927a81  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is323.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378917536
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5e8c92f4  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is351.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378922887
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@50134894  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is361.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378928248
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1376c05c  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is361.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378933610
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1b4fb997  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is357.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378938967
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@28ba21f3  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is371.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378944338
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@f2a0b8e  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is370.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378949709
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@20fa23c1  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is335.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378955044
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@6aa8ceb6  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is359.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378960403
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@73c6c3b2  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is354.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378965758
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@64a294a6  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is352.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378971110
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3b95a09c  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is367.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378976477
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1a93a7ca  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is313.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378981790
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@2b05039f  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is354.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378987144
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@66cd51c3  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is360.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378992504
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@4e515669  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is313.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436378997818
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1b9e1916  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is342.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379003162
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@4f8e5cde  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is379.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379008542
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3b764bce  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is365.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379013907
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@484b61fc  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is357.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379019265
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@4cdf35a9  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is361.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379024626
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5fcfe4b2  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is321.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379029947
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5eb5c224  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is369.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379035317
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@73a8dfcc  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is366.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379040683
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7e774085  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is474.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379046157
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@aec6354  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is359.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379051516
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@58d25a40  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is329.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379056846
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@726f3b58  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is358.0
+INFO main de.tub.ise.aec.group5.TestClient - start time1436379062204
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@ee7d9f1  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - latency is380.0
+INFO main de.tub.ise.aec.group5.TestClient - ---- END latency calculation 
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: 52.18.103.8 Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: 54.210.67.217 Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: 52.10.128.10 Port: 4000
+DEBUG main org.apache.log4j.Logger - ID: nodeD Host: 54.169.107.229 Port: 5000
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 34281
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating staleness  ----
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@6193b845
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@433c675d
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@1a6c5a9e  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@179d3b25
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5d099f62  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@49c2faae
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@31cefde0  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@1d56ce6a
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@2e0fa5d3
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@685f4c2e  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@2e5d6d97
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@377dca04
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@6433a2
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@533ddba
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@7a07c5b4  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@3d646c37
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@5a10411  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@306a30c7
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-19-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-19-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@68de145  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@46f7f36a
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+ERROR pool-22-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-22-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@2b71fc7e  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@25f38edc
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@506c589e
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-33-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.SocketException: Connection reset
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.io.BufferedInputStream.fill(Unknown Source)
+	at java.io.BufferedInputStream.read1(Unknown Source)
+	at java.io.BufferedInputStream.read(Unknown Source)
+	at java.io.ObjectInputStream$PeekInputStream.read(Unknown Source)
+	at java.io.ObjectInputStream$PeekInputStream.readFully(Unknown Source)
+	at java.io.ObjectInputStream$BlockDataInputStream.readShort(Unknown Source)
+	at java.io.ObjectInputStream.readStreamHeader(Unknown Source)
+	at java.io.ObjectInputStream.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:126)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-33-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@799f7e29
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-34-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-34-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5c29bfd
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-36-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-36-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@42110406
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-38-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-38-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-37-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-37-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@579bb367
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+ERROR pool-39-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-39-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-35-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-35-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-40-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-40-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-41-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-41-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@41906a77
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+ERROR pool-42-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-42-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@6e5e91e4
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-44-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-44-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-43-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-43-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5cb0d902
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-46-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-46-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5ef04b5
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-47-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-47-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-48-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-48-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+ERROR pool-49-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-49-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@14514713
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-50-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-50-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-45-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-45-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@4459eb14
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-51-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-51-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+ERROR pool-52-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-52-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+DEBUG main org.apache.log4j.Logger - ID: nodeA Host: 52.18.103.8 Port: 2000
+DEBUG main org.apache.log4j.Logger - ID: nodeB Host: 54.210.67.217 Port: 3000
+DEBUG main org.apache.log4j.Logger - ID: nodeC Host: 52.10.128.10 Port: 4000
+DEBUG main org.apache.log4j.Logger - ID: nodeD Host: 54.169.107.229 Port: 5000
+INFO main edu.kit.aifb.dbe.hermes.Receiver - Receiver created at port 6000
+INFO Thread-1 edu.kit.aifb.dbe.hermes.Receiver - Receiver is now running.
+INFO main edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Registered handler of type TimeHandler for target writeTime
+INFO main de.tub.ise.aec.group5.TestClient - ---- Start Calculating staleness  ----
+INFO Thread-1 edu.kit.aifb.dbe.hermes.RequestHandlerRegistry - Known handlers:
+	TimeHandler(target: writeTime)
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - ThreadScaleManager is now running.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 RequestHandlerThreads.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Started 3 NetworkIOHandlerThreads.
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@300ffa5d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@4d405ef7
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@c4437c4
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3f91beef  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@37bba400
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5d099f62
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@20ad9418
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@439f5b3d  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5197848c
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5010be6
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@2e5d6d97
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@31221be2  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@728938a9
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Failure
+Text response: A timeout or an error during processing has occurred: null
+Body:  resp codefalse
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5910e440
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@533ddba  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@7a07c5b4
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
+ERROR pool-16-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at java.net.Socket.<init>(Unknown Source)
+	at edu.kit.aifb.dbe.hermes.Sender.startSession(Sender.java:112)
+	at edu.kit.aifb.dbe.hermes.Sender.access$0(Sender.java:94)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:311)
+	at edu.kit.aifb.dbe.hermes.Sender$SenderCallable.call(Sender.java:1)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+ERROR pool-16-thread-1 edu.kit.aifb.dbe.hermes.Sender - Could not start session.
+INFO Thread-2 edu.kit.aifb.dbe.hermes.Receiver - Now active: 
+- 1 out of 3 NetworkHandlerThreads
+- 1 out of 3 RequestHandlerThreads
+Queue status:
+- 0 priority requests waiting
+- 0 normal requests waiting
+- 0 responses waiting
+- 0 clients waiting
+- 0 clients unread
+INFO main de.tub.ise.aec.group5.Client - the response is sent   Response message
+Response code: Success
+Text response: Result for Update: 
+Body:
+	Item 1: [B@3d646c37  resp codetrue
+INFO main de.tub.ise.aec.group5.TestClient - the read value  is[B@5a10411
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on A is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on B is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on C is0.0
+INFO main de.tub.ise.aec.group5.TestClient -  time to write on final replica is0.0
